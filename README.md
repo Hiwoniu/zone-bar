@@ -1,3 +1,5 @@
+<p align="center"><img src="Assets/AppIcon-512.png" width="128" alt="ZoneBar"></p>
+
 # 两地时 / ZoneBar
 
 小而专的 macOS 状态栏时钟：在状态栏显示一个指定时区的时间，比如 `🇨🇳 11/24 18:50`。
@@ -55,5 +57,9 @@ swift run
 | `ClockTicker.swift` | 对齐到整分钟（显示秒时对齐到整秒）的省电刷新 |
 | `LaunchAtLogin.swift` | 开机自启动 |
 | `ZoneBarApp.swift` / `MenuContentView.swift` / `ZonePickerView.swift` / `SettingsView.swift` | 界面 |
+
+## 图标
+
+表盘一半是夜、一半是白天：时针落在夜里，分针落在白天，指着 9:15。源文件在 `Assets/`（App 图标、彩色标志、单色标志）。
 
 刻意不做：日历、提醒、世界地图。
